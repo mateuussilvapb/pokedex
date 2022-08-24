@@ -1,0 +1,9 @@
+@import "../../../config-scss/rem-calc.scss";
+//Serve para definir que as propriedades implementadas
+//para qualquer coisa aqui, só servirão para esse componente: host {
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: rem-calc(30) 0;
+}
